@@ -1,0 +1,44 @@
+body {
+    font-family: 'Readex Pro';
+    background-image:url("images/this-is-fine.jpg");
+}
+
+h1 {
+    font-size: 50px;
+    color: #d67e23;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    color: #8f9952;
+    text-align: center;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photo {
+    width: 1000px;
+}
+
+button {
+    margin: 0;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.fireContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
